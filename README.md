@@ -5,6 +5,22 @@
 The goal of this challenge is to create an AI model to **predict the number of accidents** based on parameters like category, accident-type, year and month and then deploy it. The model is trained using Machine Learning algorithms such as Linear Regression, XGB Regression model, Random Forest Model and LightGBM model and predicted the values for number of accidents. **XGB Regression** ensemble learning algorithm gave R2 score as **0.98**, therefore I chose this algorithm for prediction purpose.
 
 ## 💻 Demo
+`View web app` : https://ai-pratikshya.herokuapp.com/
+
+`API Endpoint` : Make a POST request to the following URL
+
+https://ai-pratikshya.herokuapp.com/
+
+`Sample JSON Body` :
+```json
+{
+  "category":"Alkoholunfälle",
+  "type":"insgesamt",
+  "year":"2021",
+  "month":"01"
+}
+```
+
 
 ## Project Setup
 
