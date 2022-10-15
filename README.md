@@ -17,7 +17,7 @@ git clone https://github.com/Pratikshya1201/challengebatch-18.git
 - `Step 2:`
 
 ```bash
-cd challengebatch-18/api
+cd challengebatch-18
 ```
 
 - `Step 3:`
